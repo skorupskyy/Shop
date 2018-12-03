@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Interfaces
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
         IEnumerable<Category> Categories { get; }
     }
