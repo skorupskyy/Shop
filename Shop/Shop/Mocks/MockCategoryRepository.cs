@@ -1,4 +1,4 @@
-﻿using Shop.Data.Models;
+﻿using Shop.Models;
 using Shop.Interfaces;
 using System;
 using System.Collections.Generic;

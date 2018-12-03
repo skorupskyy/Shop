@@ -1,4 +1,4 @@
-﻿using Shop.Data.Models;
+﻿using Shop.Models;
 using Shop.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -133,7 +133,18 @@ namespace Shop.Mocks
 
         public IEnumerable<Car> PreferredCars { get; }
 
+        IEnumerable<Car> ICarRepository.Cars => throw new NotImplementedException();
+
+
+
+        IEnumerable<Car> ICarRepository.PreferredCars => throw new NotImplementedException();
+
         public Car GetCarById(int CId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Car ICarRepository.GetCarById(int CarId)
         {
             throw new NotImplementedException();
         }
