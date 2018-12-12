@@ -1,12 +1,14 @@
-﻿@using Shop.Models
-@model IEnumerable<Car>
+﻿@using Shop.ViewModels
+@model CarListViewModel
 
 <div>
     <h2> All cars </h2>
 </div>
 
+<h2>@Model.CurrentCategory</h2>
+
 @{ 
-    foreach(var car in Model)
+    foreach(var car in Model.Cars)
     {
         <div>
             <h4>Car name: @car.Name</h4>
