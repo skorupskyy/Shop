@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Shop.Interfaces;
@@ -17,10 +18,22 @@ namespace Shop
 {
     public class Startup
     {
-       
+
+        private IConfigurationRoot configurationRoot;
+
+        public Startup(IHostingEnvironment hostingEnvironment)
+        {
+            configurationRoot = new ConfigurationBuilder()
+                .SetBasePath(hostingEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json")
+                .Build();
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Server configuration
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(configurationRoot.GetConnectionString("DefaultConnection")));
             services.AddTransient<ICarRepository, MockCarRepository>();
             services.AddTransient<ICategoryRepository, MockCategoryRepository>();
             services.AddMvc();
