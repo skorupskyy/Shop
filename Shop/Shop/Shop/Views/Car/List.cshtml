@@ -1,0 +1,17 @@
+﻿@using Shop.Models
+@model IEnumerable<Car>
+
+<div>
+    <h2> All cars </h2>
+</div>
+
+@{ 
+    foreach(var car in Model)
+    {
+        <div>
+            <h4>Car name: @car.Name</h4>
+            <p>Price: @car.Price.ToString("c")</p>
+        </div>
+    }
+
+}
