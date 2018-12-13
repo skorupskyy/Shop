@@ -45,10 +45,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 Carrera",
                         LongDescription = "911 Carrera",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "https://www.cars.co.za/carimages_gen/Porsche-911/Porsche-911-Carrera-4-GTS_Pors9117fc14l.jpg",
+                        ImageUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://www.cars.co.za/carimages_gen/Porsche-911/Porsche-911-Carrera-4-GTS_Pors9117fc14l.jpg"
+                        ImageThumbnailUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg"
                     },
                     new Car {
                         Name = "911 Turbo",
@@ -56,10 +56,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 Turbo",
                         LongDescription = "911 Turbo",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "https://i.ytimg.com/vi/I2Js7_BcBdY/maxresdefault.jpg",
+                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://i.ytimg.com/vi/I2Js7_BcBdY/maxresdefault.jpg"
+                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
                     },
                     new Car {
                         Name = "911 GT2 RS",
@@ -67,10 +67,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 GT2 RS",
                         LongDescription = "911 GT2 RS",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "https://images.hgmsites.net/hug/2018-porsche-911-carrera_100613414_h.jpg",
+                        ImageUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://images.hgmsites.net/hug/2018-porsche-911-carrera_100613414_h.jpg"
+                        ImageThumbnailUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg"
                     },
                      new Car {
                         Name = "Cayenne Turbo",
@@ -78,10 +78,10 @@ namespace Shop.Mocks
                         ShortDescription = "Cayenne Turbo",
                         LongDescription = "Cayenne Turbo",
                         Category = _categoryRepository.Categories.ElementAt(1),
-                        ImageUrl = "http://ru.gpluxurycarhire.com/images/vehicule/Porsche-Cayenne_Turbo-2018-1280-46QN.jpg",
+                        ImageUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://ru.gpluxurycarhire.com/images/vehicule/Porsche-Cayenne_Turbo-2018-1280-46QN.jpg"
+                        ImageThumbnailUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg"
                     },
                     new Car {
                         Name = "Maсan Turbo",
@@ -89,10 +89,10 @@ namespace Shop.Mocks
                         ShortDescription = "Maсan Turbo",
                         LongDescription = "Maсan Turbo",
                         Category = _categoryRepository.Categories.ElementAt(2),
-                        ImageUrl = "http://www.webaraba.com/wp-content/uploads/2014/10/techart_porsche_macan_turbo.png",
+                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://www.webaraba.com/wp-content/uploads/2014/10/techart_porsche_macan_turbo.png"
+                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
                     },
                     new Car {
                         Name = "Macan GTS",
@@ -100,10 +100,10 @@ namespace Shop.Mocks
                         ShortDescription = "Macan GTS",
                         LongDescription = "Macan GTS",
                         Category = _categoryRepository.Categories.ElementAt(2),
-                        ImageUrl = "http://cdn.autotrade.com.my/news/wp-content/uploads/2016/06/20122529/Porsche-Macan-GTS-Rear-Malaysia-2016.jpg",
+                        ImageUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://cdn.autotrade.com.my/news/wp-content/uploads/2016/06/20122529/Porsche-Macan-GTS-Rear-Malaysia-2016.jpg"
+                        ImageThumbnailUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg"
                     },
                     new Car {
                         Name = "Panamera Turbo",
@@ -122,10 +122,10 @@ namespace Shop.Mocks
                         ShortDescription = "Panamera E-Hybrid",
                         LongDescription = "Panamera E-Hybrid",
                         Category = _categoryRepository.Categories.ElementAt(3),
-                        ImageUrl = "https://porschenewsroom.s3.amazonaws.com/porsche_newsroom/produkte/panamera/panamera-4-e-hybrid/b-p16_0786jpg/c1142fb2-f33c-428a-b61f-ddadfccfa1ba_teaser_original_720x1_5.jpg",
+                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://porschenewsroom.s3.amazonaws.com/porsche_newsroom/produkte/panamera/panamera-4-e-hybrid/b-p16_0786jpg/c1142fb2-f33c-428a-b61f-ddadfccfa1ba_teaser_original_720x1_5.jpg"
+                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
                     },
                 };
             }
