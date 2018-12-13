@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Shop.Interfaces;
 using Shop.Mocks;
 using Shop.Models;
+using Shop.Repositories;
 
 namespace Shop
 {
@@ -34,8 +35,8 @@ namespace Shop
             //Server configuration
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(configurationRoot.GetConnectionString("DefaultConnection")));
-            services.AddTransient<ICarRepository, MockCarRepository>();
-            services.AddTransient<ICategoryRepository, MockCategoryRepository>();
+            services.AddTransient<ICarRepository, CarRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddMvc();
         }
 
