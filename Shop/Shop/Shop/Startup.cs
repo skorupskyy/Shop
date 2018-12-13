@@ -37,7 +37,13 @@ namespace Shop
                 options.UseSqlServer(configurationRoot.GetConnectionString("DefaultConnection")));
             services.AddTransient<ICarRepository, MockCarRepository>();
             services.AddTransient<ICategoryRepository, MockCategoryRepository>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => ShoppingCart.GetCart(sp));
+
             services.AddMvc();
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +52,7 @@ namespace Shop
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
         }
     }
