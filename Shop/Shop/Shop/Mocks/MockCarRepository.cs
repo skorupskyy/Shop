@@ -23,10 +23,10 @@ namespace Shop.Mocks
                         ShortDescription = "718 Cayman",
                         LongDescription = "718 Cayman",
                         Category = _categoryRepository.Categories.Last(),
-                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/d/4/d499c9a-porsche-model.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/d/4/d499c9a-porsche-model.png"
                     },
                     new Car {
                         Name = "718 Boxster",
@@ -34,10 +34,10 @@ namespace Shop.Mocks
                         ShortDescription = "718 Boxster",
                         LongDescription = "718 Boxster",
                         Category = _categoryRepository.Categories.Last(),
-                        ImageUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/7/2/72ca0c0-porsche-model--28-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/7/2/72ca0c0-porsche-model--28-.png"
                     },
                     new Car {
                         Name = "911 Carrera",
@@ -45,10 +45,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 Carrera",
                         LongDescription = "911 Carrera",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/e/9/e918801-porsche-model.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/e/9/e918801-porsche-model.png"
                     },
                     new Car {
                         Name = "911 Turbo",
@@ -56,10 +56,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 Turbo",
                         LongDescription = "911 Turbo",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/d/8/d815cb0-porsche-model.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/d/8/d815cb0-porsche-model.png"
                     },
                     new Car {
                         Name = "911 GT2 RS",
@@ -67,10 +67,10 @@ namespace Shop.Mocks
                         ShortDescription = "911 GT2 RS",
                         LongDescription = "911 GT2 RS",
                         Category = _categoryRepository.Categories.First(),
-                        ImageUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/a/9/a952179-porsche-model--1-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/a/9/a952179-porsche-model--1-.png"
                     },
                      new Car {
                         Name = "Cayenne Turbo",
@@ -78,10 +78,10 @@ namespace Shop.Mocks
                         ShortDescription = "Cayenne Turbo",
                         LongDescription = "Cayenne Turbo",
                         Category = _categoryRepository.Categories.ElementAt(1),
-                        ImageUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/6/f/6f1ab79-ct.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/6/f/6f1ab79-ct.png"
                     },
                     new Car {
                         Name = "Maсan Turbo",
@@ -89,10 +89,10 @@ namespace Shop.Mocks
                         ShortDescription = "Maсan Turbo",
                         LongDescription = "Maсan Turbo",
                         Category = _categoryRepository.Categories.ElementAt(2),
-                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/2/1/21b1499-porsche-model--31-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/2/1/21b1499-porsche-model--31-.png"
                     },
                     new Car {
                         Name = "Macan GTS",
@@ -100,10 +100,10 @@ namespace Shop.Mocks
                         ShortDescription = "Macan GTS",
                         LongDescription = "Macan GTS",
                         Category = _categoryRepository.Categories.ElementAt(2),
-                        ImageUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/a/3/a32555f-porsche-model--30-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://d6d98d1a97a06f1a20df-623577c01afe81cb5c15b33bc0b64a21.ssl.cf1.rackcdn.com/WP0CB2A8XJS229038/6616d7248af28b0d34490d8f0e9dccbd.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/a/3/a32555f-porsche-model--30-.png"
                     },
                     new Car {
                         Name = "Panamera Turbo",
@@ -111,10 +111,10 @@ namespace Shop.Mocks
                         ShortDescription = "Panamera Turbo",
                         LongDescription = "Panamera Turbo",
                         Category = _categoryRepository.Categories.ElementAt(3),
-                        ImageUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/9/8/98b924b-porsche-model--24-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "https://www.porscheofocala.com/inventoryphotos/5463/wp0ah2a75jl144762/ip/1.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/9/8/98b924b-porsche-model--24-.png"
                     },
                     new Car {
                         Name = "Panamera E-Hybrid",
@@ -122,10 +122,10 @@ namespace Shop.Mocks
                         ShortDescription = "Panamera E-Hybrid",
                         LongDescription = "Panamera E-Hybrid",
                         Category = _categoryRepository.Categories.ElementAt(3),
-                        ImageUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg",
+                        ImageUrl = "http://porsche.ua/images/doc/6/8/680e25a-porsche-model--19-.png",
                         InStock = true,
                         IsPreferredCar = true,
-                        ImageThumbnailUrl = "http://dmi3w0goirzgw.cloudfront.net/gallery-images/1600/406000/900/406955.jpg"
+                        ImageThumbnailUrl = "http://porsche.ua/images/doc/6/8/680e25a-porsche-model--19-.png"
                     },
                 };
             }
